@@ -14,8 +14,8 @@ function Profile({ profiledata }) {
             height={"160px"}
           />
         </div>
-        <h2>{name}</h2>
-        <p>{bio}</p>
+        <h2>name:{name}</h2>
+        <p>bio:{bio}</p>
         <h3>
           followes:{followers}||following:{following}
         </h3>
